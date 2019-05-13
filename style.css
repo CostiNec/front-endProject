@@ -1,0 +1,241 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header  */
+
+#nav-bar
+{
+    background: rgb(242,239,239);
+    background: linear-gradient(90deg, rgba(242,239,239,1) 0%, rgba(229,245,247,0.4290091036414566) 52%, rgba(206,222,226,1) 100%);
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand img{
+    height: 40px;
+    padding-left: 30px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    font-weight: bold;
+    font-family: Raleway;
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover{
+    color: black;
+    transition: 0.5s;
+    text-shadow: 0px 1px 1px #333;
+}
+
+
+/* Slider*/
+
+#slider{
+    width: 100%;
+}
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+    buttom: initial!important;
+}
+
+/*About us */
+
+#about{
+    padding-top: 50px;
+    padding-bottom: 60px;
+    color: darkslategrey;
+}
+#about .btn{
+    margin-top: 12px;
+}
+
+.skills-bar p{
+    margin-bottom:10px;
+    font-weight: 600;
+    padding-top: 25px;
+}
+.progress-bar{
+    border-radius: 20px;
+
+}
+.progress-bar{
+    border-radius: 20px!important;
+
+}
+
+/*Services*/
+
+#services{
+
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("images/imgs.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #efefef!important;
+    background-attachment: fixed;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+#services h1{
+    text-align: center;
+    color: #efefef;
+    padding-bottom: 10px;
+}
+
+#services h1::after{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.icon{
+    font-size: 40px;
+    margin: auto;
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+
+}
+.icon h2{
+    font-size: 25px;
+}
+.services .col-md-3:hover{
+    background: midnightblue;
+    cursor: pointer;
+    transition: 0.7s;
+
+}
+
+/*   Price Plans*/
+
+#PricePlans h1{
+    padding-top: 50px;
+    text-align: center;
+    color: black;
+    padding-bottom: 30px;
+}
+
+#PricePlans h1::after{
+    content: '';
+    background: black;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+#PricePlans{
+    padding-bottom: 60px;
+    color: #777;
+
+}
+.single-price{
+    box-shadow: 0 1px 5px #333;
+    margin: 10px auto;
+    display: inline;
+    float: left;
+    text-align: left;
+    width: 100%;
+    background: #fff;
+    transition: 0.5s;
+}
+.single-price:hover{
+    box-shadow: 0 2px 20px #333;
+}
+.price-head{
+    background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+    width: 100%;
+}
+.price-head h2{
+    text-align: center;
+}
+.price-head p{
+    text-align: center;
+    font-size:25px;
+    color: darkslategrey;
+}
+.price-content ul li{
+    margin-left: 30px;
+    padding: 10px;
+    list-style: none;
+
+}
+.fa-check-circle{
+    color:green;
+}
+.fa-times-circle{
+    color:red;
+}
+.price-head-premium{
+    background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+    width: 100%;
+}
+.price-head-premium h2{
+    text-align: center;
+}
+.price-head-premium p{
+    text-align: center;
+    font-size:25px;
+    color: darkslategrey;
+}
+
+.price-head-advance{
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    width: 100%;
+}
+.price-head-advance h2{
+    text-align: center;
+}
+.price-head-advance p{
+    text-align: center;
+    font-size:25px;
+    color: darkslategrey;
+}
+
+/*  Contact us */
+
+#contact{
+    background: linear-gradient(90deg, rgba(242,239,239,1) 0%, rgba(229,245,247,0.4290091036414566) 52%, rgba(206,222,226,1) 100%);
+}
+#contact h1{
+    padding-top: 50px;
+    text-align: center;
+    color: black;
+    padding-bottom: 30px;
+}
+
+#contact h1::after{
+    content: '';
+    background: black;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.form-control{
+    border-radius: 0;
+    border: none;
+}
+.form-grup{
+    padding: 15px;
+}
+
+#contact .btn{
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-bottom: 80px;
+}
